@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Get the reference no from success message</description>
+   <name>Create_Message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ebcdedf-6d48-45de-8468-e57b1c462d86</testCaseGuid>
+</TestCaseEntity>

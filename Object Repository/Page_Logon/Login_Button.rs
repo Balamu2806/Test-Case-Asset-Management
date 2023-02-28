@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Login_Button</name>
+   <tag></tag>
+   <elementGuidId>79fb37e8-8b4c-43b7-9ca2-f964991a4c66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='LOGIN_LINK']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.sapMBtnContent.sapMLabelBold.sapUiSraDisplayBeforeLogin</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bfb6e1d4-3a71-4d9e-a5f1-2ca7ce78e253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMBtnContent sapMLabelBold sapUiSraDisplayBeforeLogin</value>
+      <webElementGuid>34963c88-90b4-483e-afb4-b79c1377dd48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log On</value>
+      <webElementGuid>05f0fa40-7e9a-4fe0-a84a-980374370aa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;LOGIN_LINK&quot;)/span[@class=&quot;sapMBtnContent sapMLabelBold sapUiSraDisplayBeforeLogin&quot;]</value>
+      <webElementGuid>ac3dfbfa-28e6-459f-b096-92c0ceb065f4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='LOGIN_LINK']/span</value>
+      <webElementGuid>13b95b9e-01a1-49da-8399-692dac793bee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client'])[1]/following::span[1]</value>
+      <webElementGuid>a5a0399f-aff1-4f12-86d9-30a60e328263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language'])[1]/following::span[1]</value>
+      <webElementGuid>d0d9fe7c-0de8-4cf5-8811-7999a6d196d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log On'])[2]/preceding::span[1]</value>
+      <webElementGuid>f867ec50-0a1a-45e7-bf29-4e5d16b0b90b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Password'])[1]/preceding::span[2]</value>
+      <webElementGuid>27e6c9ca-c386-4655-b49a-f07aed95c8b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log On']/parent::*</value>
+      <webElementGuid>9ce2f779-cfaf-4e7b-9785-0a6f71d2d936</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>a6d29590-bf9b-4668-a267-dd46e843390a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Log On' or . = 'Log On')]</value>
+      <webElementGuid>1531bf75-471e-4ecb-8ef5-e9ae1e067c13</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

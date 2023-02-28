@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Posting Functional Location or Equipment</description>
+   <name>FL_Eq</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8ca5da2-b72f-4d7b-a8c7-9b3c518f47e3</testCaseGuid>
+</TestCaseEntity>

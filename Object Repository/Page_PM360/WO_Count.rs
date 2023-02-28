@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>WO_Count</name>
+   <tag></tag>
+   <elementGuidId>46480bbc-be2b-411a-a67e-9090ed356475</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#application-zpm360_managewo-manage-component---Master--idworkordertable-header-inner</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'application-zpm360_managewo-manage-component---Master--idworkordertable-header-inner' and (text() = 'Work Order (0)' or . = 'Work Order (0)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = '${WO_Count}' or . = '${WO_Count}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2885f9a6-1aff-45b1-b6b0-f8053ac90706</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>application-zpm360_managewo-manage-component---Master--idworkordertable-header-inner</value>
+      <webElementGuid>0583eea5-84be-4407-9845-0f0e4c123b7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Work Order (0)</value>
+      <webElementGuid>eab6bba1-d904-4781-8cb3-14e306887ec5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application-zpm360_managewo-manage-component---Master--idworkordertable-header-inner&quot;)</value>
+      <webElementGuid>daea3712-d0ef-4791-9f7f-e1ea01e21dd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='application-zpm360_managewo-manage-component---Master--idworkordertable-header-inner']</value>
+      <webElementGuid>5fcdc23b-db27-47fc-b580-17ae0525228e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='application-zpm360_managewo-manage-component---Master--idworkordertable-header']/span</value>
+      <webElementGuid>b457f86d-cae6-4ecd-8b13-448d386252fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go'])[1]/following::span[2]</value>
+      <webElementGuid>4d114121-b067-472b-bf7f-2bd9ccd023d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adapt Filters (1)'])[1]/following::span[4]</value>
+      <webElementGuid>53d96a2e-5fcf-4bf4-820d-acbea15acd9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Standard'])[1]/preceding::span[1]</value>
+      <webElementGuid>66d0617c-a239-4c0e-9f0a-ec2994b57a67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order'])[1]/preceding::span[19]</value>
+      <webElementGuid>1ae2435b-649b-4c8f-8544-29fb45109d25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Work Order (0)']/parent::*</value>
+      <webElementGuid>8f9bed6b-ed2c-4107-aca1-1290f5d8b207</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[2]/div/div/div/span</value>
+      <webElementGuid>7e999a15-1762-4f93-90c0-49eaaa7fa567</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'application-zpm360_managewo-manage-component---Master--idworkordertable-header-inner' and (text() = 'Work Order (0)' or . = 'Work Order (0)')]</value>
+      <webElementGuid>805c00b8-c117-4f3b-80ed-3bb0536bad5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

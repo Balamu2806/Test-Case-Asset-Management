@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>No_Data</name>
+   <tag></tag>
+   <elementGuidId>9a4a961e-6fae-431b-9923-f5017173273d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#application-zpm360_managewo-manage-component---Master--idTable2-nodata-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(text() = 'textValue']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'application-zpm360_managewo-manage-component---Master--idTable2-nodata-text' and (text() = 'No Data' or . = 'No Data')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>3fc7c6a0-980c-4043-a59d-54390b6f8788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>application-zpm360_managewo-manage-component---Master--idTable2-nodata-text</value>
+      <webElementGuid>bc97748f-7a3d-44f1-8973-a9c98372b264</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>9</value>
+      <webElementGuid>3b6c01c1-bee4-4364-a6f7-a6034b936e14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMListTblCell sapMListTblCellNoData</value>
+      <webElementGuid>1ecd1980-c116-48a0-b69b-976f949e5d97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No Data</value>
+      <webElementGuid>780e59e9-070a-450a-b9ba-a9a0f5406dc5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application-zpm360_managewo-manage-component---Master--idTable2-nodata-text&quot;)</value>
+      <webElementGuid>e168e968-7c6e-4d5e-9aaa-0fc45f3af10a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//td[@id='application-zpm360_managewo-manage-component---Master--idTable2-nodata-text']</value>
+      <webElementGuid>49375baa-1943-4a04-8a8d-0c84de922167</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//tr[@id='application-zpm360_managewo-manage-component---Master--idTable2-nodata']/td</value>
+      <webElementGuid>d18de2e6-f467-4120-9738-a52739fd777d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Status'])[3]/following::td[1]</value>
+      <webElementGuid>25a76628-c992-45f4-a32a-6a0417c4372c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Priority'])[3]/following::td[1]</value>
+      <webElementGuid>971ca85c-9d0f-4f57-a6a2-1a5945f65e26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[3]/preceding::td[1]</value>
+      <webElementGuid>c16c47d7-59e9-46ae-af32-6a119f1b61ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>6d37bf4a-6a4b-420a-b147-28e581df244e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[@id = 'application-zpm360_managewo-manage-component---Master--idTable2-nodata-text' and (text() = 'No Data' or . = 'No Data')]</value>
+      <webElementGuid>caa5b25a-68a8-460d-abfd-2c1bc2be9cf3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

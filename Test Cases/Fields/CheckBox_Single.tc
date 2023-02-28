@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Single Check Box</description>
+   <name>CheckBox_Single</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af0f7554-781c-458f-81d8-b4626c5dfdd4</testCaseGuid>
+</TestCaseEntity>

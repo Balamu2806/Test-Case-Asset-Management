@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Other_Confirmation_Msg</name>
+   <tag></tag>
+   <elementGuidId>b5960a7b-2626-42a9-abf7-d9e8e8edb847</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[text()='${Msg}']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi' and (text() = 'Maintenance Plant' or . = 'Maintenance Plant')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>bdi</value>
+      <webElementGuid>bca0499a-c00b-480b-8b3c-5413d80eac88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi</value>
+      <webElementGuid>ddb7870f-502d-4bf0-80ca-7b8990e6f904</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maintenance Plant</value>
+      <webElementGuid>87a73b2e-1e09-4f8d-a759-4fa22ee1abd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi&quot;)</value>
+      <webElementGuid>18882213-1e00-4a44-af5f-3f736d895d65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//bdi[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi']</value>
+      <webElementGuid>772eba8f-205f-49c1-a60f-b1a642a7d506</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants']/bdi</value>
+      <webElementGuid>c1e0569c-0887-4861-a4a4-4d2ab9c10ee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Work Order'])[1]/following::bdi[2]</value>
+      <webElementGuid>9bb6d9d1-0b18-4e5f-ae62-9adcba51016b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Application'])[14]/following::bdi[2]</value>
+      <webElementGuid>ae7bce8e-b7b1-4679-a081-5a67b110eea9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Work Center'])[1]/preceding::bdi[1]</value>
+      <webElementGuid>fc155283-e2f3-4375-bbf1-f6c5db912e3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Person Responsible'])[1]/preceding::bdi[2]</value>
+      <webElementGuid>b8291c41-4f22-4497-8742-34a3d2fa9cfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Maintenance Plant']/parent::*</value>
+      <webElementGuid>a881c226-3d3d-4da9-9fe0-379190cc874d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/bdi</value>
+      <webElementGuid>2a8e74c6-d62d-4f75-833f-02c73f7d91e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//bdi[@id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi' and (text() = 'Maintenance Plant' or . = 'Maintenance Plant')]</value>
+      <webElementGuid>b9961bcc-8115-40aa-b415-593c3290e852</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

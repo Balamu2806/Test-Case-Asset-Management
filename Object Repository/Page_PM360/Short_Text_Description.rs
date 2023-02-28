@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Short_Text_Description</name>
+   <tag></tag>
+   <elementGuidId>fd5bab4d-15f7-4a65-945a-2bf2bae3c56f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(text() = '${ShortText}' or . = '${ShortText}')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '__text24-__clone3' and (text() = 'Time based plan for Equipment' or . = 'Time based plan for Equipment')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__text24-__clone3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cb757d52-8823-492e-8296-1cdcd3a0e33b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__text24-__clone3</value>
+      <webElementGuid>fbc9ddf9-8284-42e5-b7d2-5bd29336f2f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-sap-ui</name>
+      <type>Main</type>
+      <value>__text24-__clone3</value>
+      <webElementGuid>38a9f7a5-1550-497f-8563-7a4d86b12e51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMText sapMTextMaxWidth sapUiSelectable</value>
+      <webElementGuid>7caecb60-e303-4075-a651-76478ab2d74d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Time based plan for Equipment</value>
+      <webElementGuid>88619039-a21e-4f97-bd4a-43a7c9f5a850</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__text24-__clone3&quot;)</value>
+      <webElementGuid>fd06f121-a6f7-4698-8016-60a06b5e5102</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='__text24-__clone3']</value>
+      <webElementGuid>294cb7d2-d83b-449d-9aca-3afd7be27a23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__data173']/span</value>
+      <webElementGuid>d92d6af4-e23f-40ca-970d-4c7fa4c9a395</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[3]/following::span[6]</value>
+      <webElementGuid>ef15b04b-8830-41a3-a75a-cf8e63dbd80e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Person Responsible'])[5]/following::span[6]</value>
+      <webElementGuid>d38e445e-3f52-4405-a57d-b6c1ad6695ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OL03'])[2]/preceding::span[3]</value>
+      <webElementGuid>dcbec25a-da46-4d13-b518-079b35c8b544</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Released'])[3]/preceding::span[7]</value>
+      <webElementGuid>94cb2e8f-1fc8-4e59-a295-33610783f4ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Time based plan for Equipment']/parent::*</value>
+      <webElementGuid>2ddf3420-5d0d-491d-89f0-45bcb83e3937</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[7]/td[4]/div/div/span</value>
+      <webElementGuid>cc8f9f98-1257-4a68-ac3e-0f53ab64e83d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = '__text24-__clone3' and (text() = 'Time based plan for Equipment' or . = 'Time based plan for Equipment')]</value>
+      <webElementGuid>e197be30-ea06-4e7c-8815-5db331fe2ba4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

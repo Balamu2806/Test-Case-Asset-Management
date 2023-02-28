@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Company MOB (B-MOB)_technical--treetabl_0d5735</name>
+   <tag></tag>
+   <elementGuidId>97370b6a-7b05-407d-9f6f-4c5bcb901003</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#technical--treetable1-technical--Tree1-1-selectSingle-Button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'technical--treetable1-technical--Tree1-1-selectSingle-Button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='technical--treetable1-technical--Tree1-1-selectSingle-Button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d8b92f1f-0471-46eb-b4f8-9940163e09fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>technical--treetable1-technical--Tree1-1-selectSingle-Button</value>
+      <webElementGuid>37ae3882-36e3-41f6-a967-3a1a57f2cf9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sapMRbBOut sapMRbHoverable</value>
+      <webElementGuid>d29e8661-fa85-4554-9e17-9d6aecc31132</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;technical--treetable1-technical--Tree1-1-selectSingle-Button&quot;)</value>
+      <webElementGuid>d55e8391-bd00-4ca2-8208-9a1eedf91d32</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='technical--treetable1-technical--Tree1-1-selectSingle-Button']</value>
+      <webElementGuid>a0c85b34-e463-4f93-8a06-f3f6e0ce042f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='technical--treetable1-technical--Tree1-1-selectSingle']/div/div</value>
+      <webElementGuid>e5e0f12c-938d-481f-9085-0d9a86898587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company MOB (B-MOB)'])[1]/following::div[3]</value>
+      <webElementGuid>7ffe2e3a-ad72-4a2e-9d79-a4b28491045c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Functional Location'])[1]/following::div[14]</value>
+      <webElementGuid>58d8be10-b0f3-4e59-87db-32bdfd141706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='location (B-MOB-PAPB)'])[1]/preceding::div[2]</value>
+      <webElementGuid>96d030d2-8a95-4190-8814-0d7946922b55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok'])[1]/preceding::div[5]</value>
+      <webElementGuid>01124893-e42f-419d-b35e-0cbc05c2edad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div/div</value>
+      <webElementGuid>eff35068-cf89-476f-8cdf-aacd0c7acbc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'technical--treetable1-technical--Tree1-1-selectSingle-Button']</value>
+      <webElementGuid>77ddd9b8-70c0-4a40-8818-421268a9166c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
