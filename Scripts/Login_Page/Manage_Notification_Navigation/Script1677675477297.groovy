@@ -18,11 +18,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
+WebUI.callTestCase(findTestCase('Login_Page/Asset_Management_Title'), [:], FailureHandling.STOP_ON_FAILURE)
 
-wait(2)
+GlobalVariable.Menu_Name= 'Notification'
 
-WebUI.click(findTestObject('Page_PM360/Dropdown_Name', [('DropdownName') : GlobalVariable.Drop_Name ]))
+WebUI.click(findTestObject('Page_PM360/Menu_Name',[('MenuName') : GlobalVariable.Menu_Name]))
 
-//index = Integer.parseInt(NewFieldValue);
+GlobalVariable.App_Name = 'Manage Notification'
 
-WebUI.click(findTestObject('Page_PM360/Dropdown_Value', [('Dropdown') : GlobalVariable.New_Field_Value, ('index') : 1]))
+WebUI.click(findTestObject('Page_Home/Application_Name', [('App_Name') : GlobalVariable.App_Name]))
+

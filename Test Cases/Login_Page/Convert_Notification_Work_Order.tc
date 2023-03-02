@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to validate Convert Notification to Work Order</description>
+   <name>Convert_Notification_Work_Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64bc9dac-009d-4bf6-af1d-ae219dd9fb3a</testCaseGuid>
+</TestCaseEntity>

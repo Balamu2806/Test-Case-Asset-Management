@@ -6,16 +6,16 @@
    <elementGuidId>dda3ffdd-98cc-417b-bb0e-e9bd5be23e3d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-I</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'search' and @id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-I' and @placeholder = 'Search']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder = '${Text}']</value>
+         <value>//input[contains(@placeholder, '${Text}')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-I</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d9e689bf-e65f-4ae9-afe9-7f20d9f1df8d</webElementGuid>
+      <webElementGuid>e7e0d96c-a44e-4918-9a4f-510b5f438f44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>search</value>
-      <webElementGuid>6e52581f-c319-4507-a019-816da79c12e8</webElementGuid>
+      <webElementGuid>630fa6fd-2e1d-446e-8baa-7a5802ab215f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>77c30672-a02d-4153-9904-bf4433ef1445</webElementGuid>
+      <webElementGuid>99910b91-4211-4aac-9a74-468ac99558cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-I</value>
-      <webElementGuid>1e11a85a-3ec5-4d6a-b0d1-c37075f21bd8</webElementGuid>
+      <webElementGuid>1d4f3dc0-68a1-4800-97b9-ba5cae9f0bda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sapMSFI</value>
-      <webElementGuid>3b645baa-00dc-4e52-9382-71946e133964</webElementGuid>
+      <webElementGuid>1d486e88-b451-4b0f-a9ed-160b2138775d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search</value>
-      <webElementGuid>098c68a4-b9f8-4487-a503-d959ba77e933</webElementGuid>
+      <webElementGuid>c096cd36-6a22-4aba-9e56-539ddb8d62bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-I-labelledby</value>
-      <webElementGuid>cfb1f48d-3f9e-4f7d-b7fd-f2c4fdf58cd1</webElementGuid>
+      <webElementGuid>387621e9-41b0-4296-8730-b5ba6c9615db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-I&quot;)</value>
-      <webElementGuid>7a1decd0-0e10-485b-b6cb-6b6dcbec5739</webElementGuid>
+      <webElementGuid>59dbbace-7aad-45db-9326-deab19c57d18</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-I']</value>
-      <webElementGuid>6afb591c-ed80-4f0f-ba2f-ae199d7be647</webElementGuid>
+      <webElementGuid>66425682-cafa-45b9-9ad9-caaa7e92213c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-F']/input</value>
-      <webElementGuid>a2545445-7764-49b8-8a8f-c73779b9190d</webElementGuid>
+      <webElementGuid>88776a1f-9347-4caa-a60d-1186f1d426b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>4af93043-8937-44a7-b10d-95edd03d7574</webElementGuid>
+      <webElementGuid>bd781705-53a2-4046-a423-725ce20dde42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'search' and @id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-btnBasicSearch-I' and @placeholder = 'Search']</value>
-      <webElementGuid>8a801391-6802-4c1b-b9e6-ba379d38f449</webElementGuid>
+      <webElementGuid>2ce4c2ce-adbd-4156-86fd-edb9c6e0de27</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

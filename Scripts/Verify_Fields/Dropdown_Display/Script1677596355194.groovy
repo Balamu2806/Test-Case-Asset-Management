@@ -17,12 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+GlobalVariable.Result = WebUI.verifyElementAttributeValue(findTestObject('Page_PM360/Text_Box', [('Text') : GlobalVariable.Field_Name]),
+	'value', GlobalVariable.New_Field_Value, 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-wait(2)
-
-WebUI.click(findTestObject('Page_PM360/Dropdown_Name', [('DropdownName') : GlobalVariable.Drop_Name ]))
-
-//index = Integer.parseInt(NewFieldValue);
-
-WebUI.click(findTestObject('Page_PM360/Dropdown_Value', [('Dropdown') : GlobalVariable.New_Field_Value, ('index') : 1]))
+if (GlobalVariable.Result == false)
+	{
+		CustomKeywords.'myPack.WriteExcel.writeRowCol'("Fail", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
+			GlobalVariable.totalCount+1, 4)
+		
+		
+		KeywordUtil.markFailed(GlobalVariable.Field_Name +' Does Not Matched')
+		
+	}else
+	{
+		
+		CustomKeywords.'myPack.WriteExcel.writeRowCol'("Pass", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
+			GlobalVariable.totalCount+1, 4)
+		
+	
+	}

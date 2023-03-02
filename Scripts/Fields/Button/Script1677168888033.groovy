@@ -20,6 +20,19 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 
-WebUI.click(findTestObject('Page_PM360/Button_Name', [('ButtonName') : GlobalVariable.Button_Name]))
+if (GlobalVariable.index <=1)
+{
+	println("Button Index = 0")
+	WebUI.click(findTestObject('Page_PM360/Button_Name', [('ButtonName') : GlobalVariable.Button_Name]))
+	
+}else
+{
+	
+	WebUI.click(findTestObject('Page_PM360/Button_Name_Index', [('ButtonName') : GlobalVariable.Button_Name, ('index') : GlobalVariable.index]))
+
+	println("Button Index Greater than 0")
+	
+	GlobalVariable.index = 0
+}
 
 

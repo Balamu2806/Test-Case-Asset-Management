@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>LongText_Input_Box</name>
+   <name>MasterLayout_Convert_Button</name>
    <tag></tag>
-   <elementGuidId>455ac7c5-6288-4f9a-98e6-38a850816548</elementGuidId>
+   <elementGuidId>cc44ded3-9f2d-4af0-9c8d-fa8878555c44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,8 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[contains(@id, 'idlong')]
-</value>
+         <value>//*[(@title = 'Print' )]//preceding::button[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -27,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>bdi</value>
-      <webElementGuid>6cf6ce7f-72f0-44db-a659-1f50d4933e35</webElementGuid>
+      <webElementGuid>6028cd73-e829-4773-8226-addd35955f00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content</value>
-      <webElementGuid>92ccbe04-1ce5-495b-9074-2f650397a7e4</webElementGuid>
+      <webElementGuid>ab795c5b-13d5-4923-b4ad-bea288f78e10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Go</value>
-      <webElementGuid>7987b308-dc8d-400b-ae60-11d0b7f890e1</webElementGuid>
+      <webElementGuid>da372018-bc10-4276-a650-2266fd2061a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content&quot;)</value>
-      <webElementGuid>8f102eed-3529-4a20-a414-90fa551659ca</webElementGuid>
+      <webElementGuid>0e31a12d-3309-461a-acc1-f5e3e8098d45</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//bdi[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content']</value>
-      <webElementGuid>050143c5-29c4-4c6c-b3ee-2364b149f214</webElementGuid>
+      <webElementGuid>2650aba1-ea5f-41cb-9860-9f7ddb792aee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-content']/bdi</value>
-      <webElementGuid>711ec924-bd67-45f8-b2df-567e0bb4004c</webElementGuid>
+      <webElementGuid>97bf5ea5-2048-455d-b960-836891f69c7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Adapt Filters (1)'])[1]/following::bdi[1]</value>
-      <webElementGuid>48bed9cc-8b57-4fb7-b631-de9d254a8462</webElementGuid>
+      <webElementGuid>09ecd15a-4066-455e-a434-59fca7d7c792</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::bdi[2]</value>
-      <webElementGuid>ba33539c-0d0a-44d9-b0b3-bd78743bacd7</webElementGuid>
+      <webElementGuid>3dd58fed-082b-441f-888a-fd9e419219a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order (1)'])[1]/preceding::bdi[1]</value>
-      <webElementGuid>944df3d3-0c5d-47fe-a540-729acb19ede7</webElementGuid>
+      <webElementGuid>7091173e-0f14-469a-b816-a5f7ccd1334c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Standard'])[1]/preceding::bdi[1]</value>
-      <webElementGuid>6f48b378-ba93-4b37-916f-319935947ea1</webElementGuid>
+      <webElementGuid>80930d27-41e7-49ad-bd78-2673dffa7bd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Go']/parent::*</value>
-      <webElementGuid>8faa4caa-a79a-4790-b241-0904c4270ab1</webElementGuid>
+      <webElementGuid>2b638a76-969e-4833-83e1-7be1a7bab198</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/button/span/span/bdi</value>
-      <webElementGuid>000eeafb-33b5-47e2-a47a-1bc86835ab9d</webElementGuid>
+      <webElementGuid>1708be06-94c6-4e8e-bfe3-272632addf47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//bdi[@id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content' and (text() = 'Go' or . = 'Go')]</value>
-      <webElementGuid>7fdd17f6-12b7-4be7-ba1b-106197803170</webElementGuid>
+      <webElementGuid>dff541a3-0cce-4b0c-a248-3f191d7fb9c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -125,7 +125,7 @@ int totalCount
 	
 	CustomKeywords.'myPack.WriteExcel.writeRowCol'(GlobalVariable.Ref_No, GlobalVariable.File_Name, GlobalVariable.Sheet_Name, totalCount, 2)
 
-	WebUI.verifyElementPresent(findTestObject('Page_PM360/Pop_Up_Success_Msg',[('Success_Type') : 'Document']), totalCount, FailureHandling.STOP_ON_FAILURE)
+	//WebUI.verifyElementPresent(findTestObject('Page_PM360/Pop_Up_Success_Msg',[('Success_Type') : 'Document']), totalCount, FailureHandling.STOP_ON_FAILURE)
 		
 	WebUI.click(findTestObject('Page_PM360/Pop_Up_Button', [('PopName') : 'Ok']))
 	

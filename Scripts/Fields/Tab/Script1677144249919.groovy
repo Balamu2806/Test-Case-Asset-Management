@@ -19,4 +19,19 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 
-WebUI.click(findTestObject('Page_PM360/Tabs', [('Tab') : GlobalVariable.Tab_Name]))
+
+if (GlobalVariable.index <= 1)
+	
+{
+	
+	WebUI.click(findTestObject('Page_PM360/Tabs', [('Tab') : GlobalVariable.Tab_Name]))
+
+}else
+{
+	
+	
+	WebUI.click(findTestObject('Page_PM360/Tabs_Index', [('Tab') : GlobalVariable.Tab_Name, ('index') : GlobalVariable.index]))
+	
+	GlobalVariable.index = 0
+	
+}

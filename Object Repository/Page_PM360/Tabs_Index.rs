@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//div[(text() = '${Tab}')])['${index}']
+         <value>(//bdi[(text() = '${Tab}')])[${index}]
 </value>
       </entry>
       <entry>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>daf65751-e669-4bb8-aca8-c2d3b867d443</webElementGuid>
+      <webElementGuid>9fce5d91-4a21-40bc-8b9f-5e38e5cd715d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>id</name>
       <type>Main</type>
       <value>__identifier6-__clone257-txt</value>
-      <webElementGuid>9f265490-465f-4762-b6db-70269b8e55e2</webElementGuid>
+      <webElementGuid>e94b1d7a-2e96-44f1-abdf-e72a5fd4a08a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>data-sap-ui</name>
       <type>Main</type>
       <value>__identifier6-__clone257-txt</value>
-      <webElementGuid>64d293fc-f708-4b43-a0e2-bac9ddee5781</webElementGuid>
+      <webElementGuid>d6fc62c2-505c-49a8-969e-fef2507eb3a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sapMText sapMTextBreakWord sapMTextMaxWidth sapUiSelectable</value>
-      <webElementGuid>00625219-6271-468c-9e5e-faaace83d5e0</webElementGuid>
+      <webElementGuid>77f8708a-84ec-45a1-b27c-73744a447b4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>908144</value>
-      <webElementGuid>f5b54c0e-5fb4-40a1-a41c-be2f77e57f66</webElementGuid>
+      <webElementGuid>2e98040d-2591-4e53-9e3c-02334ac70bff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__identifier6-__clone257-txt&quot;)</value>
-      <webElementGuid>ba4b500c-e45d-441c-a59e-ae955404b73c</webElementGuid>
+      <webElementGuid>bdc00ee2-f6c8-4856-9f9f-26947ae54e41</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='__identifier6-__clone257-txt']</value>
-      <webElementGuid>7e695f5a-41cd-4c94-bc11-d3bb8edee041</webElementGuid>
+      <webElementGuid>d29569cf-bd6a-4c99-94ff-5f893bdf361d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__identifier6-__clone257-title']/span</value>
-      <webElementGuid>5b8e8e63-84e7-45d4-83eb-a046e84d01eb</webElementGuid>
+      <webElementGuid>c0d1f2ec-e027-4f58-a118-fb41901ef1cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::span[1]</value>
-      <webElementGuid>2b5467fc-788c-42a3-aeee-07b7352c0255</webElementGuid>
+      <webElementGuid>56694c27-ba37-497e-ab24-63d56e505a03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order'])[1]/following::span[2]</value>
-      <webElementGuid>334a9148-ccd2-4876-bc4c-b3bf6cd25ac3</webElementGuid>
+      <webElementGuid>f0d322bc-1b69-42fb-93ac-428da148141c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order Created'])[1]/preceding::span[3]</value>
-      <webElementGuid>2116c778-ef66-44dd-862d-22d2aa14903c</webElementGuid>
+      <webElementGuid>a6cd2cac-e8a6-4eb2-b548-288ec16dfc12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Created Date'])[1]/preceding::span[6]</value>
-      <webElementGuid>766c14fc-89e6-46b5-888e-6bd15df98dc9</webElementGuid>
+      <webElementGuid>5a144b33-1f62-4916-ac64-7fe4b033ef9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='908144']/parent::*</value>
-      <webElementGuid>e885bb35-bf19-4550-9f6b-8e1633583b94</webElementGuid>
+      <webElementGuid>064ff9b5-514a-45b6-98b7-132240d0e88e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/div/div/div/span</value>
-      <webElementGuid>06f74c5e-e406-4aab-a977-8c5da5deb013</webElementGuid>
+      <webElementGuid>5f972aab-0cf4-4926-b115-7577cd65aa58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = '__identifier6-__clone257-txt' and (text() = '908144' or . = '908144')]</value>
-      <webElementGuid>b44846d5-d4f8-44c5-a289-b3a164e3f53a</webElementGuid>
+      <webElementGuid>5b80c543-d6b6-4870-827b-6af094210a11</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
