@@ -18,22 +18,37 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testobject.ConditionType
+//input[contains(@placeholder, '${Text}')]
 
-GlobalVariable.Result = WebUI.verifyElementAttributeValue(findTestObject('Page_PM360/Text_Box', [('Text') : GlobalVariable.Field_Name]),
+WebUI.waitForPageLoad(2)
+
+GlobalVariable.xPath = "//input[contains(@placeholder, '" + GlobalVariable.Field_Name+"')]"
+ 
+ TestObject TextBox = new TestObject("objectName")
+ 
+ 
+ WebUI.callTestCase(findTestCase('Verify_Fields/Elements_Count'), [:], FailureHandling.STOP_ON_FAILURE)
+ 
+ 
+ if (GlobalVariable.index > 1) 
+ {
+	 if (GlobalVariable.Field_Name.equals("Location"))
+	 {
+		 GlobalVariable.index = 1
+		 
+	 }
+	 GlobalVariable.xPath = "(//input[contains(@placeholder, '" + GlobalVariable.Field_Name+"')])[" + GlobalVariable.index  + "]"
+ }
+ 
+ 
+ println(GlobalVariable.xPath)
+ 
+ TextBox.addProperty('xpath', ConditionType.EQUALS, GlobalVariable.xPath)
+ 
+
+GlobalVariable.Result = WebUI.verifyElementAttributeValue(TextBox,
 	'value', GlobalVariable.New_Field_Value, 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-if (GlobalVariable.Result == false)
-	{
-		
-		CustomKeywords.'myPack.WriteExcel.writeRowCol'("Fail", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
-			GlobalVariable.totalCount+1, 4)
-		
-		KeywordUtil.markFailed(GlobalVariable.Field_Name +' Does Not Matched')
-		
-		
-	}else
-	{
-		
-		CustomKeywords.'myPack.WriteExcel.writeRowCol'("Pass", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
-			GlobalVariable.totalCount+1, 4)
-	}
+
+WebUI.callTestCase(findTestCase('Verify_Fields/Result_Excel_Write'), [:], FailureHandling.STOP_ON_FAILURE)

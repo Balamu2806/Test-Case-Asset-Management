@@ -23,6 +23,8 @@ String fileName = RunConfiguration.getProjectDir() + '\\InputFile\\Application_N
 
 String sheetName = 'AppNavigation'
 
+//GlobalVariable.Role = "Admin"
+
 WebUI.callTestCase(findTestCase('Login_Page/Login _Valid_User ID_Password'), [('ScreenShot_Name') : ''], FailureHandling.STOP_ON_FAILURE)
 
 StrApp_Name = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 10, 0)

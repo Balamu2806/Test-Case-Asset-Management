@@ -10,13 +10,13 @@
          <value>//*[@id = '__identifier6-__clone257-txt' and (text() = '908144' or . = '908144')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#__identifier6-__clone257-txt</value>
+         <key>XPATH</key>
+         <value>//*[(text() = '${OrderID}')]
+</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[(text() = '${OrderID}' or . = '${OrderID}')]
-</value>
+         <key>CSS</key>
+         <value>#__identifier6-__clone257-txt</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a1e0369e-8db0-4a6d-8833-636450e825d5</webElementGuid>
+      <webElementGuid>1948c563-3b6c-4606-a917-94e9843bbbc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,7 +35,7 @@
       <name>id</name>
       <type>Main</type>
       <value>__identifier6-__clone257-txt</value>
-      <webElementGuid>cf54d3b6-8897-4a6b-b151-4b646411739e</webElementGuid>
+      <webElementGuid>3414bda4-ba47-488b-8013-495d0d96005c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>data-sap-ui</name>
       <type>Main</type>
       <value>__identifier6-__clone257-txt</value>
-      <webElementGuid>22109b23-3f5c-4e70-939a-bdb2f1fcc93a</webElementGuid>
+      <webElementGuid>67839e2e-bf5b-4a6b-9dd5-772d12453cb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sapMText sapMTextBreakWord sapMTextMaxWidth sapUiSelectable</value>
-      <webElementGuid>968e1793-45d9-4cea-a5ce-79b7ab0738ed</webElementGuid>
+      <webElementGuid>99874989-9028-4fa9-b5c3-dd66b9ff8f8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>text</name>
       <type>Main</type>
       <value>908144</value>
-      <webElementGuid>71deb62f-94c8-4ba7-b8ed-7330a4c13452</webElementGuid>
+      <webElementGuid>7b37828e-8296-4c45-8365-28452804da3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__identifier6-__clone257-txt&quot;)</value>
-      <webElementGuid>24d47b7c-52c1-4a5b-adc6-a68996e7b358</webElementGuid>
+      <webElementGuid>ac70f840-3d75-4cbb-be83-ceeb8f114e80</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='__identifier6-__clone257-txt']</value>
-      <webElementGuid>346afece-c97d-4ebf-b3ba-9836bc452b27</webElementGuid>
+      <webElementGuid>d63b6272-9f8d-4829-be8b-41760d0622ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__identifier6-__clone257-title']/span</value>
-      <webElementGuid>6fef960b-fa66-4f36-a330-192e7eeb5823</webElementGuid>
+      <webElementGuid>77ed0acd-6e96-4777-bac9-10a259e903c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::span[1]</value>
-      <webElementGuid>72ed23c5-0ec7-4fe9-8bf0-f2c6065d3fd1</webElementGuid>
+      <webElementGuid>0b65db63-1314-4194-a126-79c6f74d9830</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order'])[1]/following::span[2]</value>
-      <webElementGuid>07c4f873-bbca-4a89-9d43-c6e58592782c</webElementGuid>
+      <webElementGuid>ec0da5ee-dd2a-4491-b9c2-ad3e73b7e00d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order Created'])[1]/preceding::span[3]</value>
-      <webElementGuid>c1bcf846-e97e-4d9e-b300-f11794f742ef</webElementGuid>
+      <webElementGuid>d7455c96-20d7-4740-9e89-be78bd239060</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Created Date'])[1]/preceding::span[6]</value>
-      <webElementGuid>9881c4eb-6a97-4abf-825a-05002843fae5</webElementGuid>
+      <webElementGuid>4cf692de-b04d-46bd-8d27-84c6a879c44c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='908144']/parent::*</value>
-      <webElementGuid>839c3563-55a9-4145-a9f4-e8960d60f545</webElementGuid>
+      <webElementGuid>0b5032b7-b17c-421e-ba00-cd2358746b9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/div/div/div/span</value>
-      <webElementGuid>5bcd4356-008b-49f3-ab75-f22d47c5d22b</webElementGuid>
+      <webElementGuid>8b9ca769-bc28-400c-a950-c2b52d34bc21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,6 +139,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@id = '__identifier6-__clone257-txt' and (text() = '908144' or . = '908144')]</value>
-      <webElementGuid>0cd5a717-b6e1-40e9-83e5-e4ca76b46fa8</webElementGuid>
+      <webElementGuid>27920dd9-6afb-4228-b7a8-73cb609d2a25</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

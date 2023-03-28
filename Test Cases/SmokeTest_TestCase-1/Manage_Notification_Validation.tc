@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to Validate Data are displayed correctly in Manage Notification Application</description>
+   <name>Manage_Notification_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb33ebd0-d092-4465-93a6-f95663ec08c3</testCaseGuid>
+</TestCaseEntity>

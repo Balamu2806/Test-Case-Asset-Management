@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case the Reversed and OnOrder Stock Details of the given Materials</description>
+   <name>MMBE_Vaildate_Reserved_Stock_After_WorkOrder_Released</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a2274cd-b8f3-4c76-be4a-9afa4bcfde79</testCaseGuid>
+</TestCaseEntity>

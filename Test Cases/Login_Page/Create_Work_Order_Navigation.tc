@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Notification Navigation via DashBoard</description>
+   <name>Create_Work_Order_Navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ae81385-4dd7-43a9-a3f3-e34469dbb720</testCaseGuid>
+</TestCaseEntity>

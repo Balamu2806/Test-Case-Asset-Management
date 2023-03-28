@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to validate the Fields and Values are displayed correctly in Manage work Orer when Work Order from Convert Notification</description>
+   <name>Manage_WorkOrder_Validation_Reservation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22f3e3e6-c927-4944-937f-59d1391b473e</testCaseGuid>
+</TestCaseEntity>

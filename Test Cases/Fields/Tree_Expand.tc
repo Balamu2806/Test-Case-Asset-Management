@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This function help to Click and Expand Tree Structure untill last value</description>
+   <name>Tree_Expand</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99a0b7ca-89c0-4672-848b-b47d3aca74d5</testCaseGuid>
+</TestCaseEntity>

@@ -20,48 +20,33 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 
- GlobalVariable.Result = WebUI.verifyElementClickable(findTestObject('Page_PM360/Fiori_Default_Button', [('Button') : GlobalVariable.New_Field_Value]), 
+	 GlobalVariable.Result = WebUI.verifyElementClickable(findTestObject('Page_PM360/Fiori_Default_Button', [('Button') : GlobalVariable.New_Field_Value]), 
         FailureHandling.CONTINUE_ON_FAILURE)
 
-    println('...........................' + GlobalVariable.New_Field_Value)
+    
+ 	println('...........................' + GlobalVariable.New_Field_Value)
+	 
 
-    if (GlobalVariable.Result == false) {
-		
-		CustomKeywords.'myPack.WriteExcel.writeRowCol'("Fail", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
-			GlobalVariable.totalCount+1, 4)
-        KeywordUtil.markFailed(GlobalVariable.New_Field_Value + ' its Not Clickable in Master Layout Display Page')
-    }else
-    {
-		CustomKeywords.'myPack.WriteExcel.writeRowCol'("Pass", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
-			GlobalVariable.totalCount+1, 4)		
-	}
+    WebUI.callTestCase(findTestCase('Verify_Fields/Result_Excel_Write'), [:], FailureHandling.STOP_ON_FAILURE)
+	
     
     WebUI.click(findTestObject('Page_PM360/Fiori_Default_Button', [('Button') : GlobalVariable.New_Field_Value]))
+	
 
     GlobalVariable.Result = WebUI.verifyElementText(findTestObject('Page_PM360/Confirmation_Msg_Text'), 'Do you want to Download the Attachment?', 
         FailureHandling.CONTINUE_ON_FAILURE)
+	
 
-    if (GlobalVariable.Result == false) {
-		
-		CustomKeywords.'myPack.WriteExcel.writeRowCol'("Fail", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
-			GlobalVariable.totalCount+1, 4)
-        KeywordUtil.markFailed(' Not a Valid confirmation Message !!! ')
-		
-		
-    }else
-    {
-		
-		CustomKeywords.'myPack.WriteExcel.writeRowCol'("Pass", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
-			GlobalVariable.totalCount+1, 4)
-	}	
+    WebUI.callTestCase(findTestCase('Verify_Fields/Result_Excel_Write'), [:], FailureHandling.STOP_ON_FAILURE)
 	
     
     WebUI.verifyElementClickable(findTestObject('Page_PM360/Fiori_Default_Button', [('Button') : 'Yes']), FailureHandling.CONTINUE_ON_FAILURE)
+	
 
     WebUI.verifyElementClickable(findTestObject('Page_PM360/Fiori_Default_Button', [('Button') : 'No']), FailureHandling.CONTINUE_ON_FAILURE)
+	
 
-  
-	WebUI.click(findTestObject('Page_PM360/Fiori_Default_Button', [('Button') : 'No']))
+  	WebUI.click(findTestObject('Page_PM360/Fiori_Default_Button', [('Button') : 'No']))
 	
 	
 

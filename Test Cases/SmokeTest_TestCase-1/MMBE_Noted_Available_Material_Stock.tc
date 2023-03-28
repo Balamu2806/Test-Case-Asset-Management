@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Case the Reversed and OnOrder Stock Details of the given Materials</description>
+   <name>MMBE_Noted_Available_Material_Stock</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b5cff10-2d5e-4833-901c-db89dacb91e8</testCaseGuid>
+</TestCaseEntity>

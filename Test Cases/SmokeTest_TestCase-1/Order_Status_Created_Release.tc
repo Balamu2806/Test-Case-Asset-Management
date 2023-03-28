@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to Verify when Order Status is in Created TimeSheet Button and Add Button is disabled in Additional Information Tab and when Order Status is in Released Both button should be Enable.</description>
+   <name>Order_Status_Created_Release</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f137e454-f9f0-44b8-a427-482c9ef146c9</testCaseGuid>
+</TestCaseEntity>

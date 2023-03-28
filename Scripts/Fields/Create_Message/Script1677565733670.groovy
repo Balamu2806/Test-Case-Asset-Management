@@ -21,7 +21,20 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 GlobalVariable.Ref_No = WebUI.getText(findTestObject('Page_PM360/Pop_Up_Success_Msg',[('Success_Type') : GlobalVariable.Success_Type]))
 
-GlobalVariable.Ref_No = GlobalVariable.Ref_No.replace('Notification ', '')
+//GlobalVariable.Ref_No = "Work Order 940493 Created Successfully with Notification 10046617"
+//
+//GlobalVariable.Ref_No = GlobalVariable.Ref_No.replace(GlobalVariable.Success_Type, '')
+//
+////GlobalVariable.Ref_No = GlobalVariable.Ref_No.replace("Notification", '')
+//
+//GlobalVariable.Ref_No = GlobalVariable.Ref_No.replace(' Created Successfully', '')
+//
+//GlobalVariable.Ref_No = GlobalVariable.Ref_No.trim()
 
-GlobalVariable.Ref_No = GlobalVariable.Ref_No.replace(' Created Successfully', '')
+String regex = "[^\\d]+";
 
+String[] str = GlobalVariable.Ref_No.split(regex);
+
+GlobalVariable.Ref_No = str[1]
+
+println(GlobalVariable.Ref_No)

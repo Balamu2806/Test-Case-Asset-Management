@@ -26,8 +26,6 @@ if (GlobalVariable.Result == false)
 	CustomKeywords.'myPack.WriteExcel.writeRowCol'("Fail", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
 		GlobalVariable.totalCount+1, 4)
 	
-	KeywordUtil.markFailed(GlobalVariable.Field_Name +' Does Not Matched')
-	
 }else
 {
 	

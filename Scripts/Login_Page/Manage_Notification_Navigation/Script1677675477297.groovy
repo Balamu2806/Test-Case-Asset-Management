@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Login_Page/Asset_Management_Title'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Login_Page/Asset_Management_Title'), [:], FailureHandling.STOP_ON_FAILURE)
 
 GlobalVariable.Menu_Name= 'Notification'
 

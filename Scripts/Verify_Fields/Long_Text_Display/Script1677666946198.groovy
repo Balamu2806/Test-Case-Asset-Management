@@ -23,19 +23,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 GlobalVariable.Result = WebUI.verifyElementAttributeValue(findTestObject('Page_PM360/TextBox_Input',[('IDName') : GlobalVariable.Field_Name ]),
 	'value', GlobalVariable.New_Field_Value, 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-if (GlobalVariable.Result == false) {
-	
-	CustomKeywords.'myPack.WriteExcel.writeRowCol'("Fail", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
-		GlobalVariable.totalCount+1, 4)
-	
-	KeywordUtil.markFailed(' Description is Not Matched')
-	
-}else 
-{
-	
-	CustomKeywords.'myPack.WriteExcel.writeRowCol'("Pass", GlobalVariable.File_Name, GlobalVariable.Sheet_Name,
-		GlobalVariable.totalCount+1, 4)
-}
 
+WebUI.callTestCase(findTestCase('Verify_Fields/Result_Excel_Write'), [:], FailureHandling.STOP_ON_FAILURE)
 
 

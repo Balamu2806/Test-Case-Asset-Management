@@ -21,6 +21,8 @@ import com.kms.katalon.core.configuration.RunConfiguration
 
 WebUI.openBrowser('')
 
+WebUI.deleteAllCookies()
+
 String fileName = RunConfiguration.getProjectDir() + '//InputFile//URL_ID_PWD.xlsx'
 
 String sheetName = 'URL'
@@ -33,9 +35,37 @@ WebUI.maximizeWindow()
 
 sheetName = "ID_PWD"
 
-String UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 1)
+String UserID, PWD
 
-String PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 2)
+//GlobalVariable.Role = "Admin"
+
+switch (GlobalVariable.Role){
+	case 'Admin' :
+	
+		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 1)
+	
+		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 2)
+		
+		println(UserID +">>>>>>>>>"+PWD)
+		
+		break
+		
+	case 'Technician' :
+	
+		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 3)
+	
+		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 4)
+		
+		break
+		
+	case 'Manager' :	
+		
+		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 5)
+	
+		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 6)
+		
+		break
+}
 
 PWD = CryptoUtil.encode(CryptoUtil.getDefault(PWD))
 

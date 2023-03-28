@@ -19,10 +19,13 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 
-wait(2)
 
 WebUI.click(findTestObject('Page_PM360/Dropdown_Name', [('DropdownName') : GlobalVariable.Drop_Name ]))
 
 //index = Integer.parseInt(NewFieldValue);
 
-WebUI.click(findTestObject('Page_PM360/Dropdown_Value', [('Dropdown') : GlobalVariable.New_Field_Value, ('index') : 1]))
+//WebUI.click(findTestObject('Page_PM360/Dropdown_Value', [('Dropdown') : GlobalVariable.New_Field_Value, ('index') : 1]))
+
+WebUI.setText(findTestObject('Page_PM360/Text_Box',[('Text') : GlobalVariable.Field_Name ]),GlobalVariable.New_Field_Value)
+
+WebUI.sendKeys(findTestObject('Page_PM360/Text_Box',[('Text') : GlobalVariable.Field_Name ]), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)

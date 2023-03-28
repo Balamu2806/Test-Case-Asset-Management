@@ -6,12 +6,12 @@
    <elementGuidId>1475a7a2-d241-4a9a-848d-ced76cfec04a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'application-zpm360_managewo-manage-component---Master--idTable2-sa-CbBg']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#application-zpm360_managewo-manage-component---Master--idTable2-sa-CbBg</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'application-zpm360_managewo-manage-component---Master--idTable2-sa-CbBg']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4f343040-08a1-4507-a01d-31fa2d393069</webElementGuid>
+      <webElementGuid>2d08c832-bb25-42f0-9f3a-86b0c68e698b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>application-zpm360_managewo-manage-component---Master--idTable2-sa-CbBg</value>
-      <webElementGuid>651a20c3-a52d-49c3-aeb7-1ed955fbd4b9</webElementGuid>
+      <webElementGuid>8f839671-bfd6-4607-bce1-49b289c29bf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sapMCbActiveStateOff sapMCbBg sapMCbHoverable sapMCbMark</value>
-      <webElementGuid>14f55f22-ee89-4129-993c-33691f33aca5</webElementGuid>
+      <webElementGuid>f32ca1e8-f756-40ad-a441-de098dd7aed9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;application-zpm360_managewo-manage-component---Master--idTable2-sa-CbBg&quot;)</value>
-      <webElementGuid>fa057f13-3ad5-40df-8a19-bebfb379bb3c</webElementGuid>
+      <webElementGuid>e8781e5a-9fb7-4740-b3a8-717db900993a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='application-zpm360_managewo-manage-component---Master--idTable2-sa-CbBg']</value>
-      <webElementGuid>1948504a-4209-4a49-9860-a9f303ebe925</webElementGuid>
+      <webElementGuid>b9048724-8348-4c28-aa1e-3a00a6fab12e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='application-zpm360_managewo-manage-component---Master--idTable2-sa']/div</value>
-      <webElementGuid>2f5640bb-1cbe-4eb5-be66-664cd4f16c2b</webElementGuid>
+      <webElementGuid>1a7a1fd3-121c-4931-a0be-d23d57c9f08e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Standard'])[2]/following::div[8]</value>
-      <webElementGuid>e6b55a07-c474-4d2b-8c7c-fe7a327ae3b8</webElementGuid>
+      <webElementGuid>2f482c4f-6760-4b0e-979f-4c74f885b6b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order (61)'])[1]/following::div[13]</value>
-      <webElementGuid>00c85c68-8447-4086-a67e-16e6e3e6a974</webElementGuid>
+      <webElementGuid>f95d1b84-ac97-43ca-9e45-d0628e549d9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order'])[1]/preceding::div[1]</value>
-      <webElementGuid>920f8f6c-2f8b-4f38-a6d5-6d37615300fb</webElementGuid>
+      <webElementGuid>b9d0c6e7-615d-443c-bff8-768039abfe74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::div[2]</value>
-      <webElementGuid>7532c754-c6ea-485a-8084-61e9a2a595fe</webElementGuid>
+      <webElementGuid>a3a60aad-a8d7-48c5-b571-0d091b4b13fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th[2]/div/div</value>
-      <webElementGuid>22e1e082-751e-4c60-802c-6713e6d212d0</webElementGuid>
+      <webElementGuid>6434c021-9dfc-463f-bd65-4b762f6017bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'application-zpm360_managewo-manage-component---Master--idTable2-sa-CbBg']</value>
-      <webElementGuid>405ec5a0-305d-4db2-b347-e319891fdd0c</webElementGuid>
+      <webElementGuid>b227aa4f-20e4-4207-b8d2-24fef8196fb1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
