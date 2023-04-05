@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to validate Goods issue from work order stocked materials</description>
+   <name>Goods_Issue_Revervation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a97bbcbf-dadc-4860-b329-9f88db2ad35a</testCaseGuid>
+</TestCaseEntity>

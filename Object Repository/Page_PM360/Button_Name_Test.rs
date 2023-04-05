@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Name_Test</name>
+   <tag></tag>
+   <elementGuidId>6f295949-38d8-4ede-9499-7a91ed0bb1d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content' and (text() = 'Go' or . = 'Go')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@title = '${ButtonName}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>bdi</value>
+      <webElementGuid>93278db0-dadb-4a4a-b08a-13cc37d72c3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content</value>
+      <webElementGuid>d0e2c9cf-5517-4ef3-9c79-0bb321c9f112</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Go</value>
+      <webElementGuid>d3415338-7b73-4f90-9453-7327ae52d8b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content&quot;)</value>
+      <webElementGuid>b6345812-2259-43c9-a09f-a2f4924fe83d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@title = '${ButtonName}']</value>
+      <webElementGuid>da605aca-500d-4d27-b376-9deaf6417db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-content']/bdi</value>
+      <webElementGuid>93906ae4-9305-4a5d-bc6e-62e966d26c76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adapt Filters (1)'])[1]/following::bdi[1]</value>
+      <webElementGuid>b13cb2ec-1625-4e02-b056-142272d625d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::bdi[2]</value>
+      <webElementGuid>cbcecf79-d198-4081-99d7-d17461f841a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order (1)'])[1]/preceding::bdi[1]</value>
+      <webElementGuid>c94c9ce5-da2d-4892-8c79-3548092938cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Standard'])[1]/preceding::bdi[1]</value>
+      <webElementGuid>d687ef02-8c38-4592-a7c7-13174dbc3d31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Go']/parent::*</value>
+      <webElementGuid>f76c8e54-0752-4859-b842-6b979ab00b72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button/span/span/bdi</value>
+      <webElementGuid>cc291ad5-c10b-4eab-ab0e-40c6d32a3f4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//bdi[@id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-btnGo-BDI-content' and (text() = 'Go' or . = 'Go')]</value>
+      <webElementGuid>762c2e4b-3a23-48af-8366-967cdafd9510</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>11a8c560-0fa4-4707-8b0e-9b962e9b390a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[text()='Confirmation']//following::span[1]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi' and (text() = 'Maintenance Plant' or . = 'Maintenance Plant')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[text()='Confirmation']//following::span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>bdi</value>
-      <webElementGuid>b63a9de8-e475-4534-b6d9-0533918f7438</webElementGuid>
+      <webElementGuid>f622b07a-b115-47b6-a5ce-128e8c06d2d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi</value>
-      <webElementGuid>b2532684-38a6-4e5a-9543-72259b8cfc4a</webElementGuid>
+      <webElementGuid>c507dff6-3170-4be1-b8cd-33a8fd9bc180</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Maintenance Plant</value>
-      <webElementGuid>bb73d461-39f3-4958-9ff7-6257aa8d9be0</webElementGuid>
+      <webElementGuid>549e9a01-f72e-4fbe-b833-2e7bf88edf16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi&quot;)</value>
-      <webElementGuid>180843d5-85c7-4300-b226-dd85f4a400bc</webElementGuid>
+      <webElementGuid>6fab5ade-120a-4c0c-aeb9-8a0ffb30d1f2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//bdi[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi']</value>
-      <webElementGuid>b61d4b9d-b5af-49ef-b1a2-d1c83eb4810f</webElementGuid>
+      <webElementGuid>c75641cb-ab4a-4c62-ac95-d129421efb80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//label[@id='application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants']/bdi</value>
-      <webElementGuid>d3298dc8-729c-45c7-b42c-30f607c5fe3e</webElementGuid>
+      <webElementGuid>73b888ed-4b2a-4f78-a9aa-521d5f7c434a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Work Order'])[1]/following::bdi[2]</value>
-      <webElementGuid>a081a70a-2051-4303-bb3f-64c0dba51609</webElementGuid>
+      <webElementGuid>23a15116-2bdb-4498-9114-b8ca52150d46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Application'])[14]/following::bdi[2]</value>
-      <webElementGuid>43e7b083-6ec9-4e9a-a370-9f094146c9f7</webElementGuid>
+      <webElementGuid>ba8418ab-cfd5-4a93-ad5c-03c185ab6433</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Main Work Center'])[1]/preceding::bdi[1]</value>
-      <webElementGuid>f1d442ae-6a9e-402c-a86f-cdcf20e0baaf</webElementGuid>
+      <webElementGuid>9da65d95-b3f4-4328-b92b-ba07689cc17a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Person Responsible'])[1]/preceding::bdi[2]</value>
-      <webElementGuid>d44825e6-4e05-4068-8fc1-8bf203992825</webElementGuid>
+      <webElementGuid>d54505b2-70d5-49d0-8583-a64503e72b83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Maintenance Plant']/parent::*</value>
-      <webElementGuid>4636d9c8-6969-4108-b6f1-43ce931eff25</webElementGuid>
+      <webElementGuid>beb57040-935d-4fd7-816f-e0e1a3d1f87a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/bdi</value>
-      <webElementGuid>e8feda62-4c8d-48a9-93d7-62381b05d77d</webElementGuid>
+      <webElementGuid>c7885e9e-fc97-4521-898d-bfd7f3be429a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//bdi[@id = 'application-zpm360_managewo-manage-component---Master--smartFilterBar-filterItem-___INTERNAL_-Plants-bdi' and (text() = 'Maintenance Plant' or . = 'Maintenance Plant')]</value>
-      <webElementGuid>55f4d4b5-7217-4313-85a2-a706060347da</webElementGuid>
+      <webElementGuid>36c39d32-8db9-4f51-9039-66c84df141e0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

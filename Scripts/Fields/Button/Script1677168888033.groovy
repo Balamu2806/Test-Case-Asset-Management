@@ -18,8 +18,47 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.testobject.ConditionType
 
 
-WebUI.click(findTestObject('Page_PM360/Button_Name', [('ButtonName') : GlobalVariable.Button_Name]))
+//if (GlobalVariable.index <=1)
+//{
+//	println("Button Index = 0")
+//	WebUI.click(findTestObject('Page_PM360/Button_Name', [('ButtonName') : GlobalVariable.Button_Name]))
+//	
+//}else
+//{
+//	
+//	WebUI.click(findTestObject('Page_PM360/Button_Name_Index', [('ButtonName') : GlobalVariable.Button_Name, ('index') : GlobalVariable.index]))
+//
+//	println("Button Index Greater than 0")
+//	
+//	GlobalVariable.index = 0
+//}
 
+
+
+GlobalVariable.xPath = "//*[@title = '"+GlobalVariable.Button_Name+"']"
+
+TestObject Button = new TestObject("objectName")
+
+
+WebUI.callTestCase(findTestCase('Verify_Fields/Elements_Count'), [:], FailureHandling.STOP_ON_FAILURE)
+
+
+if (GlobalVariable.index > 1)
+{
+	if (GlobalVariable.Button_Name.equals("TECO"))
+	{
+		GlobalVariable.index = 1
+	}	
+	GlobalVariable.xPath = "(//*[@title = '"+ GlobalVariable.Button_Name + "'])["+GlobalVariable.index + "]"
+}	
+
+
+println(GlobalVariable.xPath)
+
+Button.addProperty('xpath', ConditionType.EQUALS, GlobalVariable.xPath)
+
+WebUI.click(Button)
 

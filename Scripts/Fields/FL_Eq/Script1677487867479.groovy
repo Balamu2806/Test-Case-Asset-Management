@@ -1,4 +1,3 @@
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -27,7 +26,12 @@ if (GlobalVariable.FL_Count == 0) {
 
 	WebUI.click(findTestObject('Page_PM360/Functional_Dropdown_Button',[('index') : 1 ]))
 	
-	WebUI.click(findTestObject('Page_PM360/Dropdown_Value', [('Dropdown') : GlobalVariable.Drop_Name,('index') : 1 ]))
+	//WebUI.click(findTestObject('Page_PM360/Dropdown_Value', [('Dropdown') : GlobalVariable.Drop_Name,('index') : 1 ]))
+	
+	WebUI.setText(findTestObject('Page_PM360/Text_Box',[('Text') : GlobalVariable.Field_Name ]),GlobalVariable.Drop_Name)
+	
+	WebUI.sendKeys(findTestObject('Page_PM360/Text_Box',[('Text') : GlobalVariable.Field_Name ]), Keys.chord(Keys.ENTER), FailureHandling.STOP_ON_FAILURE)
+	
 }
 
 GlobalVariable.New_Field_Value = "("+GlobalVariable.New_Field_Value+")"

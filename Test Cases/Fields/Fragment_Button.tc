@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Click on the Fragment Button</description>
+   <name>Fragment_Button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7e73624-b11d-4579-b3b5-c8f01dd51568</testCaseGuid>
+</TestCaseEntity>

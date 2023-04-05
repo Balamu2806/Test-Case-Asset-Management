@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "7FF18E89D7AC77EC04360E096B9194FE",
+  "keywordClasses": [
+    {
+      "name": "myPack.GetValue",
+      "keywordMethods": [
+        {
+          "name": "tableGetValue",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "indexCount",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

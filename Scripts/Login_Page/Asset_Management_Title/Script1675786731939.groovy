@@ -19,13 +19,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-String fileName = RunConfiguration.getProjectDir() + '\\InputFile\\Application_Name.xlsx'
+//String fileName = RunConfiguration.getProjectDir() + '\\' + GlobalVariable.Data_Path + '\\Application_Name.xlsx'
+//
+//String sheetName = 'AppNavigation'
 
-String sheetName = 'AppNavigation'
+//GlobalVariable.Role = "Admin"
 
 WebUI.callTestCase(findTestCase('Login_Page/Login _Valid_User ID_Password'), [('ScreenShot_Name') : ''], FailureHandling.STOP_ON_FAILURE)
 
-StrApp_Name = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 10, 0)
+StrApp_Name = "Asset Management Dashboard"
 
 println(StrApp_Name)
 
@@ -35,7 +37,7 @@ WebUI.waitForPageLoad(2)
 
 //String fileName = 'D:\\PM360_Upgrade\\InputFile\\Application_Name.xlsx'
 //String sheetName = 'AppNavigation'
-String Result = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 10, 1)
+String Result = "Dashboard"
 
 WebUI.switchToWindowTitle(Result)
 

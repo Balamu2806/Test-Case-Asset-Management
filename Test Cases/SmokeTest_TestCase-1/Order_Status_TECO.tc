@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test to validated after completed of MIGO - Good Issue , WO able to do TECO</description>
+   <name>Order_Status_TECO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f08a5f0d-58e6-43ef-b5c5-8c0dc2f2ad3a</testCaseGuid>
+</TestCaseEntity>

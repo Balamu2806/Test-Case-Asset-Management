@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "F03D280A98B27CE1E6E993A41AFBE8C0",
+  "keywordClasses": [
+    {
+      "name": "myPack.DateTime",
+      "keywordMethods": [
+        {
+          "name": "ESTDate",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ESTTime",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

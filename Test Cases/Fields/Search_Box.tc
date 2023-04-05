@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter any value in search Box and click on Go Button and Click on the entered value in List Page and it will navigate to Master Layout Edit Page</description>
+   <name>Search_Box</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6a77750-3549-48c5-9afd-3da494bd55e0</testCaseGuid>
+</TestCaseEntity>
