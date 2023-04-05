@@ -23,7 +23,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 //WebUI.delay(5)
 int rowCount
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\Create_Work_Order.xlsx')
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\Create_Work_Order.xlsx')
 
 GlobalVariable.Sheet_Name = 'CWO_Exist_Reserve'
 

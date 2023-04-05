@@ -24,9 +24,13 @@ int rowCount
 
 int totalCount
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\Create_Notification.xlsx')
+//GlobalVariable.Data_Path = "Data_QAS"
+
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\Create_Notification.xlsx')
 
 GlobalVariable.Sheet_Name = 'CNO_Exist'
+
+
 
 GlobalVariable.New_Field_Value = CustomKeywords.'myPack.ReadExcel.readExcel'(GlobalVariable.File_Name, GlobalVariable.Sheet_Name, 
     1, 2)
@@ -38,7 +42,7 @@ WebUI.click(findTestObject('Page_PM360/Order_ID', [('OrderID') : GlobalVariable.
 
 //WebUI.click(findTestObject('Page_PM360/MasterLayout_Edit_Button'))
 //Display Field and its value validation
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\Create_Work_Order.xlsx')
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\Create_Work_Order.xlsx')
 
 GlobalVariable.Sheet_Name = 'CWO_Reverse'
 

@@ -88,7 +88,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>510d6044-bb22-45b0-bd82-ae5bc8d66b9e</guid>
+      <guid>2069da2d-1a7a-40db-bc34-26091d34bc25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SmokeTest_TestCase-1/Order_Status_TECO</testCaseId>

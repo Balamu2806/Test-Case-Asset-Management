@@ -21,9 +21,11 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 GlobalVariable.Field_Name = 'Goods Issue'
 
+GlobalVariable.Data_Path = 'Data_QAS'
+
 WebUI.callTestCase(findTestCase('Fields/Navigation'), [:], FailureHandling.STOP_ON_FAILURE)
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\Create_Work_Order.xlsx')
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\Create_Work_Order.xlsx')
 
 GlobalVariable.Sheet_Name = 'CWO_Exist_Reserve'
 
@@ -58,7 +60,7 @@ GlobalVariable.Ref_No = CustomKeywords.'myPack.ReadExcel.readExcel'(GlobalVariab
 27, 2)
 
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\MM_Application.xlsx')
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\MM_Application.xlsx')
 
 GlobalVariable.Sheet_Name = 'MIGO-Reservation'
 

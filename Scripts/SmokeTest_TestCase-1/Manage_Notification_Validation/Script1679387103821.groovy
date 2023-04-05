@@ -23,7 +23,9 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 WebUI.delay(5)
 int rowCount
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\Create_Notification.xlsx')
+//GlobalVariable.Data_Path = "Data_PRD"
+
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\Create_Notification.xlsx')
 
 GlobalVariable.Sheet_Name = 'CNO_Exist'
 

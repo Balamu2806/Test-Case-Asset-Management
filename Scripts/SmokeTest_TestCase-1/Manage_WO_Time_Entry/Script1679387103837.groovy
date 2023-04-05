@@ -21,7 +21,11 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 int rowCount
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\Create_Work_Order.xlsx')
+//GlobalVariable.Data_Path = "Data_QAS"
+
+//GlobalVariable.OrderID = "913616"
+
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\Create_Work_Order.xlsx')
 
 GlobalVariable.Sheet_Name = 'Time_Sheet'
 

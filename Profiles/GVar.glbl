@@ -189,4 +189,14 @@
       <initValue>''</initValue>
       <name>Title</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Environment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Data_Path</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

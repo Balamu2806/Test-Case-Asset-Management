@@ -20,7 +20,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 GlobalVariable.Field_Name = 'MMBE'
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\MM_Application.xlsx')
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\MM_Application.xlsx')
 
 GlobalVariable.Sheet_Name = 'MMBE_Before'
 

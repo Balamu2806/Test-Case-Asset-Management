@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('Login_Page/Create_Notification_Navigation'), [:
 
 int rowCount
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\Create_Notification.xlsx')
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\Create_Notification.xlsx')
 
 GlobalVariable.Sheet_Name = 'CNO_All_Field'
 
@@ -68,7 +68,7 @@ GlobalVariable.Sheet_Name = 'CNO_Exist'
 CustomKeywords.'myPack.WriteExcel.writeRowCol'(GlobalVariable.Ref_No, GlobalVariable.File_Name, GlobalVariable.Sheet_Name, 
     1, 2)
 
-GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\InputFile\\Create_WorK_Order.xlsx')
+GlobalVariable.File_Name = (RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\Create_WorK_Order.xlsx')
 
 CustomKeywords.'myPack.WriteExcel.writeRowCol'(GlobalVariable.Ref_No, GlobalVariable.File_Name, 'CWO_Reverse', 9, 2)
 

@@ -18,7 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-GlobalVariable.Attach_Doc = RunConfiguration.getProjectDir() + GlobalVariable.Attach_Doc
+
+GlobalVariable.Attach_Doc = RunConfiguration.getProjectDir() + '\\'+ GlobalVariable.Data_Path + '\\'+ GlobalVariable.New_Field_Value
 
 WebUI.uploadFile(findTestObject('Page_PM360/Button_Name', [('ButtonName') : 'Upload']), GlobalVariable.Attach_Doc)
 

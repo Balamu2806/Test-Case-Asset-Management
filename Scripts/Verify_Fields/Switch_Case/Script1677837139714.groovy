@@ -30,8 +30,7 @@ switch (GlobalVariable.Field_Type) {
 
         break
     case 'Attach':
-        GlobalVariable.Attach_Doc = GlobalVariable.New_Field_Value
-
+        
         WebUI.callTestCase(findTestCase('Fields/Attach_Posting'), [:], FailureHandling.STOP_ON_FAILURE)
 
         break

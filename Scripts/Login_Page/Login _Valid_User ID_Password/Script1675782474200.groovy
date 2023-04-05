@@ -23,11 +23,49 @@ WebUI.openBrowser('')
 
 WebUI.deleteAllCookies()
 
-String fileName = RunConfiguration.getProjectDir() + '//InputFile//URL_ID_PWD.xlsx'
 
-String sheetName = 'URL'
+String fileName = RunConfiguration.getProjectDir() + '//Environment//URL_ID_PWD.xlsx'
 
-String URL = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 1)
+String sheetName = 'ENV'
+
+int row
+
+GlobalVariable.Environment = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 0)
+
+sheetName = 'URL'
+
+String URL
+
+if (GlobalVariable.Environment == "DEV")
+{
+	
+	GlobalVariable.Data_Path = "Data_DEV"
+	
+	row = 1
+	
+	URL = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 1)
+	
+	
+}else if (GlobalVariable.Environment=="QAS")
+		{
+			
+			GlobalVariable.Data_Path = "Data_QAS"
+			
+			row = 1
+			
+			URL = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 2, 1)
+			
+			
+		}else if (GlobalVariable.Environment == "PRD" )
+		{
+			
+			GlobalVariable.Data_Path = "Data_PRD"
+			
+			row = 1
+			
+			URL = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 3, 1)
+			
+		}	
 
 WebUI.navigateToUrl(URL)
 
@@ -42,9 +80,9 @@ String UserID, PWD
 switch (GlobalVariable.Role){
 	case 'Admin' :
 	
-		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 1)
+		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, row, 1)
 	
-		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 2)
+		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, row, 2)
 		
 		println(UserID +">>>>>>>>>"+PWD)
 		
@@ -52,17 +90,17 @@ switch (GlobalVariable.Role){
 		
 	case 'Technician' :
 	
-		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 3)
+		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, row, 3)
 	
-		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 4)
+		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, row, 4)
 		
 		break
 		
 	case 'Manager' :	
 		
-		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 5)
+		UserID = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, row, 5)
 	
-		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, 1, 6)
+		PWD = CustomKeywords.'myPack.ReadExcel.readExcel'(fileName, sheetName, row, 6)
 		
 		break
 }
